@@ -2,10 +2,13 @@
 \index{environments}
 
 
+<!-- R < knit_it.R --no-save; git commit -m "commit changes"; git push -->
+
+
 
 ## Introduction
 
-The environment is the data structure that powers scoping. This chapter dives deep into environments, describing their structure in depth, and using them to improve your understanding of the four scoping rules described in Section \@ref(lexical-scoping). 
+The environment is the data structure that powers scoping. **This chapter dives deep into environments**, describing their structure in depth, and using them to improve your understanding of the four scoping rules described in Section \@ref(lexical-scoping). 
 Understanding environments is not necessary for day-to-day use of R. But they are important to understand because they power many important R features like lexical scoping, namespaces, and R6 classes, and interact with evaluation to give you powerful tools for making domain specific languages, like dplyr and ggplot2.
 
 ### Quiz {-}
